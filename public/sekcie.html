@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Sekcie</title>
+</head>
+<body class="flex font-sans">
+<section class="fixed bg-blue-900 text-gray-300 h-screen w-1/3 lg:w-1/6 md:w-1/5 sm:w-1/4 p-3">
+    <div class="flex-col">
+        <div>
+            <h3 class="text-xl lg:text-4xl pt-3 font-semibold text-center">Admin panel</h3>
+        </div>
+        <div>
+            <a class="text-md lg:text-2xl pt-3 cursor-pointer hover:text-white" href="#">Produkty</a>
+        </div>
+        <div>
+            <a class="text-md lg:text-2xl pt-3 cursor-pointer hover:text-white" href="#">Sekcie</a>
+        </div>
+        <div>
+            <a class="text-md lg:text-2xl pt-3 cursor-pointer hover:text-white" href="#">Objednávky</a>
+        </div>
+    </div>
+</section>
+
+<main class="flex w-full justify-end">
+    <div class="flex flex-col ml-1/3 lg:ml-1/6 md:ml-1/5 sm:ml-1/4 w-2/3 lg:w-5/6 md:w-4/5 sm:w-3/4">
+        <div class="flex flex-row w-full justify-end">
+            <div class="flex items-center p-2">
+                <a class="p-2 flex items-center bg-green-800 text-white rounded" href="#">
+                    <p class="text-2xl pr-2 font-semibold text-white">Pridať sekciu</p>
+                    <i><img src="https://img.icons8.com/ios-glyphs/30/ffffff/add--v1.png"/></i>
+                </a>
+            </div>
+        </div>
+        <div class="mt-36">
+            <div class="flex flex-col justify-center items-center">
+                <!--       Item 1       -->
+                <div class="shadow-2xl p-4 w-2/3 mb-16">
+                    <div class="flex justify-center">
+                        <img class="w-52" src="../src/img/tsirt.jfif" alt="sekcia-obrazok">
+                    </div>
+
+                    <div class="flex sm:flex-row flex-col items-center pt-10">
+                        <h3 class="text-4xl font-semibold">Tričká</h3>
+                        <div class="flex items-center p-2 w-full justify-end">
+                            <a class="p-2 flex items-center bg-red-800 text-white rounded" href="">
+                                <i><img src="https://img.icons8.com/ios-glyphs/30/ffffff/filled-trash.png"/></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!--       Item 2       -->
+                <div class="shadow-2xl p-4 w-2/3  mb-16">
+                    <div class="flex justify-center">
+                        <img class="w-52" src="../src/img/hoodie.jpg" alt="sekcia-obrazok">
+                    </div>
+                    <div class="flex sm:flex-row flex-col items-center pt-10">
+                        <h3 class="text-4xl font-semibold">Mikiny</h3>
+                        <div class="flex items-center p-2 w-full  justify-end">
+                            <a class="p-2 flex items-center bg-red-800 text-white rounded" href="">
+                                <i><img src="https://img.icons8.com/ios-glyphs/30/ffffff/filled-trash.png"/></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!--       Item 3       -->
+                <div class="shadow-2xl p-4 w-2/3 mb-16">
+                    <div class="flex justify-center">
+                        <img class="w-52" src="../src/img/socks.jpg" alt="sekcia-obrazok">
+                    </div>
+                    <div class="flex sm:flex-row flex-col items-center pt-10">
+                        <h3 class="text-4xl font-semibold">Ponožky</h3>
+                        <div class="flex items-center p-2 w-full  justify-end">
+                            <a class="p-2 flex items-center bg-red-800 text-white rounded" href="">
+                                <i><img src="https://img.icons8.com/ios-glyphs/30/ffffff/filled-trash.png"/></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</main>
+</body>
+</html>
